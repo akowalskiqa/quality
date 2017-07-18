@@ -12,7 +12,7 @@ object Main {
       )
 
     var input = scala.io.StdIn.readLine()
-
+///aa
     def test(iteration:Int): Unit ={
       if(input.length > numbers(iteration)._1){
         test(iteration+1)
