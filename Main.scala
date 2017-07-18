@@ -12,9 +12,9 @@ object Main {
       )
 
     var input = scala.io.StdIn.readLine()
-///aa
+      var inputLen = input.length
     def test(iteration:Int): Unit ={
-      if(input.length > numbers(iteration)._1){
+      if(inputLen > numbers(iteration)._1){
         test(iteration+1)
       }else{
         println("Your number in short scale is: "+numbers(iteration)._2 + " or in large scale: "+ numbers(iteration)._3)
